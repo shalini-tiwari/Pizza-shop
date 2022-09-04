@@ -1,0 +1,72 @@
+body{
+    background-color:black;
+}
+
+ul{
+    background-color: aqua;
+    float:left;
+    
+    }
+    
+#wel{
+    height: 290px;
+    object-fit: cover;
+    transition: transform 200 ms in ease-in-out;
+    display: flex;
+
+    width:1000px;
+    height:1000px;
+}
+div{
+    display: flexbox;
+}
+img{
+    
+    float:right;
+    width:600px;
+    height:300px;
+    margin:30px;
+}
+
+
+h1{
+    
+    background-color: aliceblue;
+    font-size: 60px;
+    width:1300px;
+
+}
+section{
+    float:none;
+}
+p1{
+    color:wheat;
+    align-items: left;
+
+}
+p2{
+        color:lightblue;
+        font-size: 30px;
+        margin-left:100px;
+        
+        margin-top:100;
+        border-style: solid;
+        border-color: aliceblue;
+        padding:10px 10px 10px;
+    }
+ p3{
+        float:none;
+        color:lightblue;
+        font-size: 30px;
+        margin-left:6000px;
+        margin-right: 40px;
+        margin-bottom: 50px;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-left: 50px;
+        padding:10px 10px 10px;
+
+        
+    }
+
+
