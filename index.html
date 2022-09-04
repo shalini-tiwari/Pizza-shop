@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza Shop</title>
-    <link rel="stylesheet"  href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <div>
-        <h1><center>WELCOME To Pizza Shop</center></h1>
-        <img src="Pizza.jpg" width = "60",height = "800">
-    </div> 
-    <ul>
-        <li class="item"><a href="#">Home</a></li>
-        <li class="item"><a href="#">About</a></li>
-        <li class="item"><a href="#">Contact Us</a></li>
-    </ul>  
-    <section>
-        <br></br>
-        <p2>Non-Veg Pizza</p2>
-        <br></br><br></br>
-        <p3>Veg Pizza</p3>
-    </section>
-    
-</body>
+      <nav class="topnav">
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a class="active" href="#home">Home</a>
+      </nav>
+
+      <div>
+        <h1 class="page-header">Welcome To Pizza Shop</h1>
+      </div>
+      <section class="section1">
+        <div class="sub-section-main">
+          <div class="sub-section1">
+            <p class="sub-section1-heading">Non-Veg Pizza</p>
+            <img class="pizza-non-veg" src="Pizza.jpg" alt="_pizza" />
+          </div>
+          <div class="sub-section2">
+            <p class="sub-section2-heading">Veg Pizza</p>
+            <img class="pizza-veg" src="Pizza.jpg" alt="_pizza" />
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>

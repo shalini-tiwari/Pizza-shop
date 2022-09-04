@@ -1,72 +1,68 @@
-body{
-    background-color:black;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
 }
 
-ul{
-    background-color: aqua;
-    float:left;
-    
-    }
-    
-#wel{
-    height: 290px;
-    object-fit: cover;
-    transition: transform 200 ms in ease-in-out;
-    display: flex;
-
-    width:1000px;
-    height:1000px;
-}
-div{
-    display: flexbox;
-}
-img{
-    
-    float:right;
-    width:600px;
-    height:300px;
-    margin:30px;
+.topnav {
+  overflow: hidden;
+  margin: 10px 40px 10px 10px;
+  background-color: #333;
 }
 
-
-h1{
-    
-    background-color: aliceblue;
-    font-size: 60px;
-    width:1300px;
-
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
-section{
-    float:none;
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
-p1{
-    color:wheat;
-    align-items: left;
 
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
 }
-p2{
-        color:lightblue;
-        font-size: 30px;
-        margin-left:100px;
-        
-        margin-top:100;
-        border-style: solid;
-        border-color: aliceblue;
-        padding:10px 10px 10px;
-    }
- p3{
-        float:none;
-        color:lightblue;
-        font-size: 30px;
-        margin-left:6000px;
-        margin-right: 40px;
-        margin-bottom: 50px;
-        border-style: solid;
-        border-color: aliceblue;
-        margin-left: 50px;
-        padding:10px 10px 10px;
 
-        
-    }
+.page-header {
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+}
 
+.section1 {
+  width: 90%;
+  margin: 0 auto;
+}
 
+.sub-section-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-section1-heading,
+.sub-section2-heading {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.pizza-veg,
+.pizza-non-veg {
+  width: 600px;
+  height: 300px;
+  margin: 30px;
+}
